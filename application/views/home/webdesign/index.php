@@ -1,0 +1,314 @@
+
+	
+    <!-- Second navbar for categories -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" target="_blank">dream -cms</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home"><strong>Home</strong></a></li>
+            <li><a href="#services"><strong>Services</strong></a></li>
+            <li><a href="#how"><strong>How it works</strong></a></li>
+            <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+            <li><a href="#price"><strong>Price</strong></a></li>
+            <li><a href="#contact"><strong>Contact</strong></a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+    
+	<div id="home" class="blue-bg home"> <!-- Home -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 vertical-center">
+					<img class="web-design img-responsive" src="<?=$config['home_theme_url']?>img/web-design.png" alt="WEB DESIGN">
+					<div class="hidden-lg hidden-md hidden-sm col-xs-12 text-center">
+						<h2 class="white-text">Everything Starts with your Amazing Website!</h2><br>
+						<a href="#how" class="btn btn-lg btn-white"><strong>Discover More</strong></a><br><br><br>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+				<div class="home-text-center">
+					<h2 class="white-text">When your domain name is</h2><h1 class="white-text">UNIQUE,</h1>
+					<h2 class="white-text"><br>Why don't your </h2><h1 class="white-text">WEBSITE!</h1><br><br>
+					<a href="#services" class="btn btn-lg btn-white"><strong>Discover More</strong></a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /Home -->
+	
+	<div id="services" class="black-bg sec-pad">
+		<div class="container">
+			<h1 class="white-text text-center">Services</h1><br><br>
+			<div class="row white-text">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="icon pull-left">
+						<i class="fa fa-desktop fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="service-content">
+						<h2>Website Design</h2>
+						<p>Complete Web Solution maintains its top position by implementing top features and constantly upgrading their approaches.</p><br><br>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="icon pull-left">
+						<i class="fa fa-globe fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="service-content">
+						<h2>CMS Website Development</h2>
+						<p>Complete Web Solution offers dynamic website with seo friendly for your business to grow online business steadily and intently.</p><br><br>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="icon pull-left">
+						<i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="service-content">
+						<h2>e-Commerce Solution</h2>
+						<p>Bring your E-commerce website in a challenging environment to provide best facility to our customer that will help you to get a trust.</p><br><br>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<div class="icon pull-left">
+						<i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+					</div>
+					<div class="service-content">
+						<h2>Education Website</h2>
+						<p>Complete Web Solution maintains its top position by implementing top features and constantly upgrading their approaches and creative idea.</p>
+					</div>
+				</div>
+			</div><br><br>
+			<img src="<?=$config['home_theme_url']?>img/services-img.png" class="img-responsive center-block">
+		</div>
+	</div>
+	
+    <div id="how" class="container sec-pad"> <!-- How -->
+		<div class="row clear">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<img class="how-b-pad img-responsive" src="<?=$config['home_theme_url']?>img/laptop.png"><br>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 how">
+				<h1 class="blue-text">How it's Done</h1>
+				<h2 class="blue-text">Your Unique Website</h2><br>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br><br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center clear">
+				<img src="<?=$config['home_theme_url']?>img/meet.png">
+				<p class="text-bold"><br>NEW CLIENT</p><br><br>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+				<img src="<?=$config['home_theme_url']?>img/package.png">
+				<p class="text-bold"><br>SELECT PACKAGE</p><br><br>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+				<img src="<?=$config['home_theme_url']?>img/discuss.png">
+				<p class="text-bold"><br>DISCUSS</p><br><br>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+				<img src="<?=$config['home_theme_url']?>img/develop.png">
+				<p class="text-bold"><br>DEVELOP</p><br><br>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+				<img src="<?=$config['home_theme_url']?>img/test.png">
+				<p class="text-bold"><br>TEST</p><br><br>
+			</div>
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+				<img src="<?=$config['home_theme_url']?>img/launch.png">
+				<p class="text-bold"><br>LAUNCH</p><br>
+			</div>
+		</div>
+	</div> <!-- /How --> <!-- /container -->
+	
+	
+	
+	<div id="portfolio" class="black-bg sec-pad text-center">
+		<div class="container">
+		  <div class="row">
+			<h1 class="white-text">Portfolio</h1><br><br>
+		    
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 1"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-01.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-02.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-03.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-04.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-05.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-06.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 7"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-07.png"></a></div>
+			  <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 8"><img class="thumbnail img-responsive" src="<?=$config['home_theme_url']?>img/portfolio-08.png"></a></div>
+			
+		  </div>
+		</div>
+		<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+		  <div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+				<button class="close" type="button" data-dismiss="modal">×</button>
+				<h3 class="modal-title">Heading</h3>
+			</div>
+			<div class="modal-body">
+			</div>
+		   </div>
+		  </div>
+		</div>
+	</div>
+
+	
+	
+	<!-- Price -->
+	<div id="price" class="sec-pad">
+		<div class="container">
+			<div class="row">
+				<h1 class="blue-text text-center">Website Price</h1><br><br>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price-card text-center">
+						<div class="price-card-title">
+							<h2><strong>Personal</strong></h2><br>
+							<div class="price-number">
+								<img src="<?=$config['home_theme_url']?>img/price-splash.png" class="img-responsive">
+								<h2>Rs 232499</h2>
+							</div>
+						</div>
+						<div class="price-contents">
+							<p>Pages: <strong>5</strong></p><hr>
+							<p>Domain: <strong>1 Year</strong></p><hr>
+							<p>Hosting: <strong>1 Year</strong></p><hr>
+							<p>Email: <strong>2</strong></p><hr>
+							<p>Support: <strong>1 Year</strong></p>
+						</div>
+						<a href="#" class="btn btn-lg btn-blue"><strong>Order Now</strong></a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price-card text-center">
+						<div class="price-card-title">
+							<h2><strong>Business</strong></h2><br>
+							<div class="price-number">
+								<img src="<?=$config['home_theme_url']?>img/price-splash.png" class="img-responsive">
+								<h2>Rs 232499</h2>
+							</div>
+						</div>
+						<div class="price-contents">
+							<p>Pages: <strong>6 to 8</strong></p><hr>
+							<p>Domain: <strong>1 Year</strong></p><hr>
+							<p>Hosting: <strong>1 Year</strong></p><hr>
+							<p>Email: <strong>2</strong></p><hr>
+							<p>Support: <strong>1 Year</strong></p>
+						</div>
+						<a href="#" class="btn btn-lg btn-blue"><strong>Order Now</strong></a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price-card text-center">
+						<div class="price-card-title">
+							<h2><strong>Education</strong></h2><br>
+							<div class="price-number">
+								<img src="<?=$config['home_theme_url']?>img/price-splash.png" class="img-responsive">
+								<h2>Rs 232499</h2>
+							</div>
+						</div>
+						<div class="price-contents">
+							<p>Pages: <strong>10</strong></p><hr>
+							<p>Domain: <strong>1 Year</strong></p><hr>
+							<p>Hosting: <strong>1 Year</strong></p><hr>
+							<p>Email: <strong>2</strong></p><hr>
+							<p>Support: <strong>1 Year</strong></p>
+						</div>
+						<a href="#" class="btn btn-lg btn-blue"><strong>Order Now</strong></a>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="price-card text-center">
+						<div class="price-card-title">
+							<h2><strong>e-Commerce</strong></h2><br>
+							<div class="price-number">
+								<img src="<?=$config['home_theme_url']?>img/price-splash.png" class="img-responsive">
+								<h2>Rs 232499</h2>
+							</div>
+						</div>
+						<div class="price-contents">
+							<p>Pages: <strong>10+</strong></p><hr>
+							<p>Domain: <strong>1 Year</strong></p><hr>
+							<p>Hosting: <strong>1 Year</strong></p><hr>
+							<p>Email: <strong>2</strong></p><hr>
+							<p>Support: <strong>1 Year</strong></p>
+						</div>
+						<a href="#" class="btn btn-lg btn-blue"><strong>Order Now</strong></a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div><!-- /Price -->
+	
+	<div id="contact" class="blue-bg contact-pad text-center"> <!-- Contact -->
+		<div class="container">
+			<h1 class="white-text">Contact Us</h1><br><br>
+			
+			<form class="form-horizontal">
+				<fieldset>
+					<!-- Form -->
+					<!-- Name input-->
+					<div class="form-group">
+					  <div class="col-md-12">
+					  <input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md">
+					  </div>
+					</div>
+
+					<!-- Email input -->
+					<div class="form-group">
+						<div class="col-md-12">
+							<input type="text" class="form-control" placeholder="Email Address" name="email" class="form-control input-md">
+						</div>
+					</div>
+					
+					<!-- Subject input -->
+					<div class="form-group">
+					  <div class="col-md-12">
+					  <input id="subject" name="subject" type="text" placeholder="Subject" class="form-control input-md">
+					  </div>
+					</div>
+
+					<!-- Message area -->
+					<div class="form-group">
+					  <div class="col-md-12">                     
+						<textarea class="form-control" id="textarea" name="textarea" rows="5" placeholder="Message"></textarea>
+					  </div>
+					</div>
+					<a href="#" class="btn btn-md btn-white"><strong>Send </strong></a><br><br><br>
+				</fieldset>
+			</form>
+			
+			<div class="col-lg-9 col-lg-offset-1 white-text">
+				<div class="col-lg-4 contact-pad-item"><i class="fa fa-phone" aria-hidden="true"></i> +91 44 4000 2323</div>
+				<div class="col-lg-4 contact-pad-item"><i class="fa fa-phone" aria-hidden="true"></i> +91 44 4000 2345</div>
+				<div class="col-lg-4 contact-pad-item"><i class="fa fa-phone" aria-hidden="true"></i> Toll Free: 1800 103 9241</div>
+			</div><br><br>
+			
+			<div class="social-links">
+				<a href="https://www.facebook.com/ewallhost" target="_empty"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/ewallhost" target="_empty"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://www.linkedin.com/ewallhost" target="_empty"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/+eWallHostcom" target="_empty"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+				<a href="https://youtube.com/c/ewallhostcom" target="_empty"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+				<a href="mailto:support@ewallhost.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+			</div>
+			
+		</div>
+	</div> <!-- /Contact -->
+	

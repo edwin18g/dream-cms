@@ -1,0 +1,312 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Navbar */
+
+.navbar-brand { position: relative; z-index: 2; }
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+
+.navbar .navbar-collapse { position: relative; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+.navbar{
+	min-height: 56px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #c8c8c8;
+}
+
+@media screen and (max-width: 767px) {    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: right; }
+}
+
+@media (min-width: 768px){
+	.navbar-nav>li>a {
+		padding-top: 18px;
+		padding-bottom: 18px;
+	}
+}
+/* Navbar ends*/
+
+body{
+	font-family:"Proxima Nova Regular","Segoe UI",Roboto,"Droid Sans","Helvetica Neue",Arial,sans-serif;
+}
+.blue-bg{
+	background-color:#2196f3;
+}
+h1{
+	font-weight:bold;
+	font-size:36px;
+}
+h2{
+	font-size:24px;
+}
+.white-text{
+	color:white;
+}
+.blue-text{
+	color:#2196f3;
+}
+.row, .col-lg-4, .col-md-4 {
+    margin-right: 0px;
+    margin-left: 0px; 
+	padding-right: 0px;
+    padding-left: 0px;
+}
+.home{
+	min-height: 100vh;
+}
+.web-design {
+	display: block;
+    margin:0 auto;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.home-text-center{
+    margin-top: 40%;
+	margin-bottom: 20%;
+}
+
+.btn-white, .btn-white:visited{
+	background-color:transparent;
+	font-weight:bold;
+	color:white;
+	border:2px solid #fff;
+	border-radius:10px;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.btn-white:hover{
+	background-color:#fff;
+	color:#2196f3;
+	transition:0.6s;
+}
+.sec-pad{
+	padding-top:100px;
+	padding-bottom:100px;
+}
+.how-b-pad{
+	padding-bottom:50px;
+}
+.text-bold{
+	font-weight:bold;
+}
+.black-bg{
+	background-color:#3c3c3c;
+}
+
+.service-content {
+    margin-left: 45px;
+    padding-left: 5px;
+}
+.service-content>h2{
+	padding-bottom:10px;
+}
+.order1:link, .order1:visited{
+	background-color:white;
+	font-size:18px;
+	font-weight:bold;
+	color:#5b1764;
+	border-radius:10px;
+	padding: 14px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom:20px;
+}
+.order-pad{
+	padding: 14px 2px;
+}
+.violet2-bg{
+	background-color:#90359a;
+	padding:10px;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.col-md-3
+{
+    margin-bottom:20px;
+}
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+}
+
+.btn-white{
+	background-color:transparent;
+	color:white;
+}
+
+
+/** Price CSS **/
+.price-card{
+	border-radius:5px;
+	border:2px solid #2196f3;
+}
+.price-card-title{
+	background-color:#2196f3;
+	padding:20px;
+	color:white;
+}
+.price-number{
+	margin:0 auto;
+}
+.price-number>img{
+	left: 50%;
+	transform: translate(-50%,0);
+	position: absolute;
+}
+.price-number>h2{
+	position:relative;
+	padding:48px 0px;;
+}
+.price-contents{
+	padding:30px;
+}
+hr {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.btn-blue{
+	border:2px solid #2196f3;
+	margin-bottom:30px;
+	color:#2196f3;
+}
+.btn-blue:hover{
+	border:2px solid #2196f3;
+	background-color:#2196f3;
+	transition:0.6s;
+	color:#fff;
+}
+/** Price CSS ends **/
+
+
+.modal-dialog {width:800px;}
+.thumbnail {margin-bottom:15px;}
+
+.contact-pad{
+	padding:100px 0px;
+}
+.contact-pad .contact-pad-item{
+	font-size:20px;
+	padding:10px;
+}
+
+.social-links{
+	padding:30px;
+}
+.social-links>a{
+	padding:0 10px;
+	color:white;
+}
+
+.form-horizontal{
+	margin: 0 auto;
+    width:60%;
+}
+.form-control{
+	height:42px;
+}
+
+@media only screen and (max-width: 768px){
+	.vertical-center{
+		min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+		min-height: 100vh; /* These two lines are counted as one :-)       */
+		display: block;
+		align-items: center;
+		padding-top:80px;
+	}
+	.web-design{
+		padding:20px;
+		width:70%;
+	}
+	.modal-dialog {width:100%;}
+}
+
+@media only screen and (max-width: 480px){
+	.web-design{
+		padding:20px;
+		width:100%;
+	}
+	.modal-dialog {width:100%;}
+}
+
+@media only screen and (max-width: 320px){
+	.how{
+		float:left;
+		text-align:center;
+	}
+	.modal-dialog {width:100%;}
+}
