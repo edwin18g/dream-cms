@@ -1,6 +1,7 @@
 <?php
 
 session_start(); 
+//new git
 
 // Defines
 define('ROOT_DIR', realpath(dirname(__FILE__)) .'/');
