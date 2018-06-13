@@ -1,5 +1,6 @@
 <?php
-
+echo "hia";
+/*
 session_start(); 
 //new git
 
@@ -11,6 +12,6 @@ require(ROOT_DIR .'system/press.php');
 // Define base URL
 global $config;
 define('BASE_URL', $config['base_url']);
-press();
+press();*/
 
 ?>
