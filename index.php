@@ -28,7 +28,7 @@
   <script>
   // this should be the Ajax Method.
 // and load the url content
-    document.onload = function() {setCurrentPage(window.location.pathname)};
+    window.onload = function() {setCurrentPage(window.location.pathname)};
 var setCurrentPage = function(url) {
     $('app-root').html(url);
   $('title').html(url);
