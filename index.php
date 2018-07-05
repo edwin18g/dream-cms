@@ -28,6 +28,7 @@
 var setCurrentPage = function(url) {
     $('h2 span').html(url || "/");
     $("#menu-nav a[href='" + url + "']").fadeTo(500, 0.3);
+  document.write(url);
 };
 
 $('.menu-nav a').click(function(e){
