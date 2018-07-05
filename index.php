@@ -9,7 +9,31 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
+  <script>
+  // this should be the Ajax Method.
+// and load the url content
+var setCurrentPage = function(url) {
+    $('h2 span').html(url || "/");
+    $("#menu-nav a[href='" + url + "']").fadeTo(500, 0.3);
+};
+
+$('#menu-nav a').click(function(e){
+    e.preventDefault();
+    var targetUrl = $(this).attr('href'),
+        targetTitle = $(this).attr('title');
+    
+    $("#menu-nav a[href='" + window.location.pathname + "']").fadeTo(500, 1.0);
+    
+    window.history.pushState({url: "" + targetUrl + ""}, targetTitle, targetUrl);
+    setCurrentPage(targetUrl);
+});
+
+window.onpopstate = function(e) {
+    $("#menu-nav a").fadeTo('fast', 1.0);
+    setCurrentPage(e.state ? e.state.url : null);
+};
+
+  </script>
 <div class="container">
   <h1>My First Bootstrap Page</h1>
   <p>This part is inside a .container class.</p> 
