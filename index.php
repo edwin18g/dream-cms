@@ -14,21 +14,23 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
+    <app-nav>
     <ul class="nav navbar-nav menu-nav">
       <li class="active"><a href="home">Home</a></li>
       <li><a href="page1">Page 1</a></li>
       <li><a href="page2">Page 2</a></li>
       <li><a href="page3">Page 3</a></li>
     </ul>
+      </app-nav>
   </div>
 </nav>
+<app-root></app-root>
   <script>
   // this should be the Ajax Method.
 // and load the url content
 var setCurrentPage = function(url) {
-    $('h2 span').html(url || "/");
-    $("#menu-nav a[href='" + url + "']").fadeTo(500, 0.3);
-  document.write(url);
+    $('app-root').html(url);
+    
 };
 
 $('.menu-nav a').click(function(e){
