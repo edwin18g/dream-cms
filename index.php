@@ -32,6 +32,8 @@ var setCurrentPage = function(url) {
 
 $('.menu-nav a').click(function(e){
     e.preventDefault();
+  $('.menu-nav li').removeClass('active');
+  $(this).parent().addClass('active');
     var targetUrl = $(this).attr('href'),
         targetTitle = $(this).attr('title');
     
