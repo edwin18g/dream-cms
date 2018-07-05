@@ -48,7 +48,7 @@ $('.menu-nav a').click(function(e){
 });
 
 window.onpopstate = function(e) {
-    $("#menu-nav a").fadeTo('fast', 1.0);
+    
     setCurrentPage(e.state ? e.state.url : null);
 };
 
