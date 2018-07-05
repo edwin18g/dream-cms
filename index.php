@@ -30,6 +30,7 @@
 // and load the url content
 var setCurrentPage = function(url) {
     $('app-root').html(url);
+  $('title').html(url);
     
 };
 
