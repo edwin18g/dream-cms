@@ -58,6 +58,9 @@ window.onpopstate = function(e) {
     
     setCurrentPage(e.state ? e.state.url : null);
 };
+    
+    
+    var app = new Appdream();
 
   </script>
 
