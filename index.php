@@ -28,13 +28,18 @@
   <script>
   // this should be the Ajax Method.
 // and load the url content
-    window.onload = function() {setCurrentPage(window.location.pathname)};
+    var Appdream = function(){
+      function (){
+           window.onload = function() {setCurrentPage(window.location.pathname)};
 var setCurrentPage = function(url) {
   url = url.replace(/^,?'/,'').replace(/'$/,'');
     $('app-root').html(url);
   $('title').html(url);
     
-};
+}
+      }
+    }
+ 
 
 $('.menu-nav a').click(function(e){
     e.preventDefault();
